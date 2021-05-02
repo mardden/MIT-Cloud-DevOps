@@ -1,7 +1,6 @@
 # FAQ
 
-## git@github.com: Permission denied (publickey).
-##fatal: Could not read from remote repository.
+## git@github.com: Permission denied (publickey). fatal: Could not read from remote repository.
 Por que pego esse erro ao tentar clonar meu repositório?
 
 _Resposta 1: Faltou adicionar sua chave pública ao github._

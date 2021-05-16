@@ -6,7 +6,7 @@
 
 _Resposta 1: Faltou adicionar sua chave pública ao github._
 
-_Resposta 2: Executou o git clone sem adicionar sua chave privada ao chave ao ssh-agent_
+_Resposta 2: Executou o git clone sem adicionar sua chave privada ao ssh-agent_
 
 Para corrigir, execute na **cli (linha de comando)** do seu sistema operacional execute:
 ```bash

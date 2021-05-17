@@ -20,14 +20,16 @@ PS C:\> Enable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatfor
 ```
 ![img](/images/02.png)
 
-Baixar e instalar pacote de atualização para o [Kernel do Linux]
-(https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi)
+Baixar e instalar pacote de atualização para o [Kernel do Linux](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi)
 Obs.: link para versão 64bits
 
 Instalar Ubuntu 20.04 via Microsoft store
 ![img](/images/03.png)
+
 ![img](/images/04.png)
+
 ![img](/images/05.png)
+
 ![img](/images/06.png)
 
 Mudar o Ubuntu para WSL 2
@@ -98,7 +100,9 @@ c:\> set-executionpolicy remotesigned (n)
 Acesse as propriedades e mude a fonte conforme as imagens abaixo:
 
 ![img](/images/08.png)
+
 ![img](/images/09.png)
+
 ![img](/images/10.png)
 
 
@@ -112,7 +116,9 @@ Após a instalação, o vscode vai sugerir instalar a extensão WSL
 ## Abra o terminal e modifique a fonte conforme imagem abaixo:
 
 ![img](/images/12.png)
+
 ![img](/images/13.png)
+
 ![img](/images/14.png)
 
 ```bash
@@ -121,11 +127,13 @@ Após a instalação, o vscode vai sugerir instalar a extensão WSL
 
 ## Abrindo um diretório do Ubuntu dentro do VSCODE
 ![img](/images/15.png)
+
 ![img](/images/16.png)
 
 ## Repositório git
-Perceba que ao modificar qualquer arquivo o **VSCODE** e o **zsh** irão acompanhar o status do repositório.
+Perceba que, ao modificar qualquer arquivo, o **VSCODE** e o **zsh** irão acompanhar o status do repositório.
 
 ![img](/images/17.png)
+
 ![img](/images/18.png)
 

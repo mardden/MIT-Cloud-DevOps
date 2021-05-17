@@ -20,8 +20,8 @@ PS C:\> Enable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatfor
 ```
 ![img](/images/02.png)
 
-Baixar e instalar pacote de atualização para o Kernel do Linux
-https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi
+Baixar e instalar pacote de atualização para o [Kernel do Linux]
+(https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi)
 Obs.: link para versão 64bits
 
 Instalar Ubuntu 20.04 via Microsoft store
@@ -30,7 +30,7 @@ Instalar Ubuntu 20.04 via Microsoft store
 ![img](/images/05.png)
 ![img](/images/06.png)
 
-Mudar o o Ubuntu para WSL 2
+Mudar o Ubuntu para WSL 2
 ```bash
 c:\> wsl -l -v
 NAME  STATE  VERSION
@@ -96,6 +96,7 @@ c:\> set-executionpolicy remotesigned (n)
 
 ## Alterar a fonte padrão para Ubuntu Mono derivative Powerlin
 Acesse as propriedades e mude a fonte conforme as imagens abaixo:
+
 ![img](/images/08.png)
 ![img](/images/09.png)
 ![img](/images/10.png)
@@ -109,9 +110,11 @@ Após a instalação, o vscode vai sugerir instalar a extensão WSL
 ![img](/images/11.png)
 
 ## Abra o terminal e modifique a fonte conforme imagem abaixo:
+
 ![img](/images/12.png)
 ![img](/images/13.png)
 ![img](/images/14.png)
+
 ```bash
 "editor.fontFamily": "'Ubuntu Mono derivative Powerline',Consolas, 'Courier New', monospace",
 ```
@@ -121,6 +124,8 @@ Após a instalação, o vscode vai sugerir instalar a extensão WSL
 ![img](/images/16.png)
 
 ## Repositório git
+Perceba que ao modificar qualquer arquivo o **VSCODE** e o **zsh** irão acompanhar o status do repositório.
+
 ![img](/images/17.png)
 ![img](/images/18.png)
 

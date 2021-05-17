@@ -115,7 +115,7 @@ Após a instalação, o vscode vai sugerir instalar a extensão WSL
 
 ## Abra o terminal e modifique a fonte conforme imagem abaixo:
 
-![img](/images/12.png)
+![](/images/12.png)
 
 ![img](/images/13.png)
 

@@ -12,23 +12,23 @@ Habilitar o Windows Subsystem for Linux
 ```bash
 PS C:\> Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 ```
-!(/images/01.png)
+![img](/images/01.png)
 
 Habilitar o recurso de máquina virtual (necessário para o WSL2)
 ```bash
 PS C:\> Enable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform
 ```
-!(/images/02.png)
+![img](/images/02.png)
 
 Baixar e instalar pacote de atualização para o Kernel do Linux
 https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi
 Obs.: link para versão 64bits
 
 Instalar Ubuntu 20.04 via Microsoft store
-!(/images/03.png)
-!(/images/04.png)
-!(/images/05.png)
-!(/images/06.png)
+![img](/images/03.png)
+![img](/images/04.png)
+![img](/images/05.png)
+![img](/images/06.png)
 
 Mudar o o Ubuntu para WSL 2
 ```bash
@@ -60,7 +60,7 @@ NAME  STATE  VERSION
 ```bash
  $ zsh
 ```
-!(/images/07.png)
+![img](/images/07.png)
 
 ## Instalar o oh-mu-zsh
 ```bash
@@ -96,9 +96,9 @@ c:\> set-executionpolicy remotesigned (n)
 
 ## Alterar a fonte padrão para Ubuntu Mono derivative Powerlin
 Acesse as propriedades e mude a fonte conforme as imagens abaixo:
-!(/images/08.png)
-!(/images/09.png)
-!(/images/10.png)
+![img](/images/08.png)
+![img](/images/09.png)
+![img](/images/10.png)
 
 
 # Integrando ao VS Code
@@ -106,21 +106,21 @@ Acesse as propriedades e mude a fonte conforme as imagens abaixo:
 https://code.visualstudio.com/docs/?dv=win
 
 Após a instalação, o vscode vai sugerir instalar a extensão WSL
-!(/images/11.png)
+![img](/images/11.png)
 
 ## Abra o terminal e modifique a fonte conforme imagem abaixo:
-!(/images/12.png)
-!(/images/13.png)
-!(/images/14.png)
+![img](/images/12.png)
+![img](/images/13.png)
+![img](/images/14.png)
 ```bash
 "editor.fontFamily": "'Ubuntu Mono derivative Powerline',Consolas, 'Courier New', monospace",
 ```
 
 ## Abrindo um diretório do Ubuntu dentro do VSCODE
-!(/images/15.png)
-!(/images/16.png)
+![img](/images/15.png)
+![img](/images/16.png)
 
 ## Repositório git
-!(/images/17.png)
-!(/images/18.png)
+![img](/images/17.png)
+![img](/images/18.png)
 

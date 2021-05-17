@@ -8,4 +8,4 @@ Turma: CC-POR-002 Abr21
 
 **[WSL2.md](WSL2.md)** - Manual de instalação do Ubuntu no Windows Subsystem Linux 2.
 
-_pull request são bem-vindos ;)_
+_P.S. pull request são bem-vindos ;)_

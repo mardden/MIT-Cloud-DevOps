@@ -64,7 +64,7 @@ NAME  STATE  VERSION
 ```
 ![](/images/07.png)
 
-## Instalar o oh-mu-zsh
+## Instalar o oh-my-zsh
 ```bash
  $ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```

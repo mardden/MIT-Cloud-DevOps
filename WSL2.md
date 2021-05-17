@@ -8,31 +8,31 @@ Requisitos:
 
 ## Passos para instalação
 
-Habilitar o Windows Subsystem for Linux
+### Habilitar o Windows Subsystem for Linux
 ```bash
 PS C:\> Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 ```
-![img](/images/01.png)
+![](/images/01.png)
 
-Habilitar o recurso de máquina virtual (necessário para o WSL2)
+### Habilitar o recurso de máquina virtual (necessário para o WSL2)
 ```bash
 PS C:\> Enable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform
 ```
-![img](/images/02.png)
+![](/images/02.png)
 
-Baixar e instalar pacote de atualização para o [Kernel do Linux](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi)
-Obs.: link para versão 64bits
+### Baixar e instalar pacote de atualização para o [Kernel do Linux](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi)
+_Obs.: link para versão 64bits_
 
-Instalar Ubuntu 20.04 via Microsoft store
-![img](/images/03.png)
+### Instalar Ubuntu 20.04 via Microsoft store
+![](/images/03.png)
 
-![img](/images/04.png)
+![](/images/04.png)
 
-![img](/images/05.png)
+![](/images/05.png)
 
-![img](/images/06.png)
+![](/images/06.png)
 
-Mudar o Ubuntu para WSL 2
+### Mudar o Ubuntu para WSL 2
 ```bash
 c:\> wsl -l -v
 NAME  STATE  VERSION
@@ -62,7 +62,7 @@ NAME  STATE  VERSION
 ```bash
  $ zsh
 ```
-![img](/images/07.png)
+![](/images/07.png)
 
 ## Instalar o oh-mu-zsh
 ```bash
@@ -98,12 +98,11 @@ c:\> set-executionpolicy remotesigned (n)
 
 ## Alterar a fonte padrão para Ubuntu Mono derivative Powerlin
 Acesse as propriedades e mude a fonte conforme as imagens abaixo:
+![](/images/08.png)
 
-![img](/images/08.png)
+![](/images/09.png)
 
-![img](/images/09.png)
-
-![img](/images/10.png)
+![](/images/10.png)
 
 
 # Integrando ao VS Code
@@ -111,29 +110,33 @@ Acesse as propriedades e mude a fonte conforme as imagens abaixo:
 https://code.visualstudio.com/docs/?dv=win
 
 Após a instalação, o vscode vai sugerir instalar a extensão WSL
-![img](/images/11.png)
+![](/images/11.png)
 
 ## Abra o terminal e modifique a fonte conforme imagem abaixo:
-
 ![](/images/12.png)
 
-![img](/images/13.png)
+![](/images/13.png)
 
-![img](/images/14.png)
+![](/images/14.png)
 
 ```bash
 "editor.fontFamily": "'Ubuntu Mono derivative Powerline',Consolas, 'Courier New', monospace",
 ```
 
 ## Abrindo um diretório do Ubuntu dentro do VSCODE
-![img](/images/15.png)
+![](/images/15.png)
 
-![img](/images/16.png)
+![](/images/16.png)
 
 ## Repositório git
 Perceba que, ao modificar qualquer arquivo, o **VSCODE** e o **zsh** irão acompanhar o status do repositório.
+![](/images/17.png)
 
-![img](/images/17.png)
+![](/images/18.png)
 
-![img](/images/18.png)
 
+## Fonte:
+
+- [Thomas Maurer - Install WSL 2 on Windows 10](https://www.thomasmaurer.ch/2019/06/install-wsl-2-on-windows-10/#:~:text=Install%20WSL%202%201%20Enable%20the%20Windows%20Subsystem,4%20Configure%20the%20distro%20to%20use%20WSL%202)
+
+- [Microsoft - Guia de instalação wsl2](https://docs.microsoft.com/pt-br/windows/wsl/install-win10#step-4---download-the-linux-kernel-update-package)

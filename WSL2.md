@@ -50,7 +50,7 @@ NAME  STATE  VERSION
 ```bash
  $ sudo apt install zsh
 ```
-## Edite o .bashrc para trocar o bash pelo zsh
+## Editar o .bashrc e trocar o bash pelo zsh
 ```bash
  $ vim .bashrc
  # inserir no início do arquivo
@@ -58,7 +58,7 @@ NAME  STATE  VERSION
    exec zsh
    fi
 ```
-## Testando zsh
+## Testar o zsh
 ```bash
  $ zsh
 ```
@@ -69,7 +69,7 @@ NAME  STATE  VERSION
  $ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-## Mudar o tema do zsh
+## Modificar o tema do zsh
 ```bash
  $ vim .bashrc
  # substitua
@@ -105,14 +105,14 @@ Acesse as propriedades e mude a fonte conforme as imagens abaixo:
 ![](/images/10.png)
 
 
-# Integrando ao VS Code
+# Integrar o ubuntu ao VS Code
 
-https://code.visualstudio.com/docs/?dv=win
+[Download VSCODE](https://code.visualstudio.com/docs/?dv=win)
 
 Após a instalação, o vscode vai sugerir instalar a extensão WSL
 ![](/images/11.png)
 
-## Abra o terminal e modifique a fonte conforme imagem abaixo:
+## Abrir o terminal e modificar a fonte conforme imagem abaixo:
 ![](/images/12.png)
 
 ![](/images/13.png)
@@ -123,7 +123,7 @@ Após a instalação, o vscode vai sugerir instalar a extensão WSL
 "editor.fontFamily": "'Ubuntu Mono derivative Powerline',Consolas, 'Courier New', monospace",
 ```
 
-## Abrindo um diretório do Ubuntu dentro do VSCODE
+## Abrir um diretório do Ubuntu dentro do VSCODE
 ![](/images/15.png)
 
 ![](/images/16.png)
@@ -135,8 +135,7 @@ Perceba que, ao modificar qualquer arquivo, o **VSCODE** e o **zsh** irão acomp
 ![](/images/18.png)
 
 
-## Fonte:
+## Fontes:
 
-- [Thomas Maurer - Install WSL 2 on Windows 10](https://www.thomasmaurer.ch/2019/06/install-wsl-2-on-windows-10/#:~:text=Install%20WSL%202%201%20Enable%20the%20Windows%20Subsystem,4%20Configure%20the%20distro%20to%20use%20WSL%202)
-
-- [Microsoft - Guia de instalação wsl2](https://docs.microsoft.com/pt-br/windows/wsl/install-win10#step-4---download-the-linux-kernel-update-package)
+[Thomas Maurer - Install WSL 2 on Windows 10](https://www.thomasmaurer.ch/2019/06/install-wsl-2-on-windows-10/#:~:text=Install%20WSL%202%201%20Enable%20the%20Windows%20Subsystem,4%20Configure%20the%20distro%20to%20use%20WSL%202)
+[Microsoft - Guia de instalação wsl2](https://docs.microsoft.com/pt-br/windows/wsl/install-win10#step-4---download-the-linux-kernel-update-package)

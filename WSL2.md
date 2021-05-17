@@ -98,6 +98,7 @@ c:\> set-executionpolicy remotesigned (n)
 
 ## Alterar a fonte padrão para Ubuntu Mono derivative Powerlin
 Acesse as propriedades e mude a fonte conforme as imagens abaixo:
+
 ![](/images/08.png)
 
 ![](/images/09.png)
@@ -137,5 +138,6 @@ Perceba que, ao modificar qualquer arquivo, o **VSCODE** e o **zsh** irão acomp
 
 ## Fontes:
 
-[Thomas Maurer - Install WSL 2 on Windows 10](https://www.thomasmaurer.ch/2019/06/install-wsl-2-on-windows-10/#:~:text=Install%20WSL%202%201%20Enable%20the%20Windows%20Subsystem,4%20Configure%20the%20distro%20to%20use%20WSL%202)
-[Microsoft - Guia de instalação wsl2](https://docs.microsoft.com/pt-br/windows/wsl/install-win10#step-4---download-the-linux-kernel-update-package)
+- [Thomas Maurer - Install WSL 2 on Windows 10](https://www.thomasmaurer.ch/2019/06/install-wsl-2-on-windows-10/#:~:text=Install%20WSL%202%201%20Enable%20the%20Windows%20Subsystem,4%20Configure%20the%20distro%20to%20use%20WSL%202)
+
+- [Microsoft - Guia de instalação wsl2](https://docs.microsoft.com/pt-br/windows/wsl/install-win10#step-4---download-the-linux-kernel-update-package)

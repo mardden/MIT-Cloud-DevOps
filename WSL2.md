@@ -91,6 +91,7 @@ Via Powershell execute
  c:\>cd fontes\fonts
 # desativar a politica de execução de script
  c:\> set-executionpolicy remotesigned (y)
+# instalar as fontes
  c:\>.\install.ps1
 # reativar política de execução
 c:\> set-executionpolicy remotesigned (n)

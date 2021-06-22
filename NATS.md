@@ -40,6 +40,12 @@ mqtt {
 EOF
 ```
 
+## Rodar o serviço
+```
+bash# systemctl stop nats-server
+bash# systemctl start nats-server
+```
+
 # nats-bench - instalação
 
 ```

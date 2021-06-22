@@ -8,7 +8,7 @@ bash# cd nats-server-v2.2.6-linux-amd64/
 bash# cp -p nats-server /usr/sbin/
 ```
 
-# Configurar o systemd
+## Configurar o systemd
 ```
 bash# cat <<EOF > /etc/systemd/system/nats-server.service
 [Unit]

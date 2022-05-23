@@ -71,7 +71,7 @@ NAME  STATE  VERSION
 
 ## Modificar o tema do zsh
 ```bash
- $ vim .bashrc
+ $ vim .zshrc
  # substitua
  # ZSH_THEME="robbyrussell"
  #por
